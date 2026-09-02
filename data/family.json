@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-02",
+  "familyName": "Демонстрационная семья",
+  "people": [
+    {"id":"anna","name":"Человек 1","years":"1900 — 1980","relation":"старшее поколение","initials":"1","color":"#8f5c4c","bio":"Добавьте краткую историю жизни.","education":"Добавьте сведения об образовании","work":"Добавьте сведения о работе","moments":["Добавьте важное событие"],"sources":["Добавьте источник"],"parents":[]},
+    {"id":"janis","name":"Человек 2","years":"1902 — 1985","relation":"старшее поколение","initials":"2","color":"#4e6871","bio":"Добавьте краткую историю жизни.","education":"","work":"","moments":[],"sources":[],"parents":[]},
+    {"id":"ilona","name":"Человек 3","years":"1930 — 2010","relation":"среднее поколение","initials":"3","color":"#5d7047","bio":"Добавьте краткую историю жизни.","education":"","work":"","moments":[],"sources":[],"parents":["anna","janis"]},
+    {"id":"maris","name":"Человек 4","years":"1932 — 2012","relation":"среднее поколение","initials":"4","color":"#675878","bio":"Добавьте краткую историю жизни.","education":"","work":"","moments":[],"sources":[],"parents":[]},
+    {"id":"roman","name":"Человек 5","years":"1960","relation":"младшее поколение","initials":"5","color":"#344a57","bio":"Добавьте краткую историю жизни.","education":"","work":"","moments":[],"sources":[],"parents":["ilona","maris"]}
+  ]
+}
