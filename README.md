@@ -16,7 +16,7 @@ npm run dev
 3. Измените нужные поля. Сохраняйте уникальные латинские `id` и корректный JSON.
 4. Измените `updatedAt` и увеличьте `version`.
 5. Нажмите **Commit changes**.
-6. GitHub Actions автоматически соберёт и опубликует новую версию Pages.
+6. Для немедленной публикации запустите локально `npm run deploy` или замените соответствующие файлы в ветке `gh-pages`.
 
 Второй способ: внесите изменения в приложении, нажмите **Резервная копия**, затем замените содержимое `public/data/family.json` скачанным файлом.
 
@@ -24,7 +24,7 @@ npm run dev
 
 ## GitHub Pages
 
-Workflow `.github/workflows/deploy-pages.yml` автоматически публикует папку `dist`. В настройках репозитория откройте **Settings → Pages → Source** и один раз выберите **GitHub Actions**.
+Сайт публикуется бесплатно из ветки `gh-pages`, без GitHub Actions. В настройках репозитория откройте **Settings → Pages → Source**, выберите **Deploy from a branch**, ветку **gh-pages** и папку **/(root)**.
 
 ## Приватность
 
